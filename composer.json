@@ -1,14 +1,6 @@
 {
     "name": "tprely/douyin",
-    "description": "",
-    "keywords": [
-        "swagger",
-        "php",
-        "sdk",
-        "api"
-    ],
-    "homepage": "http://swagger.io",
-    "license": "MIT",
+    "description": "字节跳动抖音SDK",
     "authors": [
         {
             "name": "Swagger and contributors",
@@ -16,13 +8,15 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php" : ">7.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "^6.2"
     },
-    "autoload": {
-        "psr-4": { "swagger_client\\" : "src" }
+    "autoload" : {
+        "psr-4": {
+            "swagger_client\\" : "src/"
+        }
     }
 }
